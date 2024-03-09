@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 В проекте используются пакеты react, react-router-dom, ract-transition-group и некоторые дополнительные.
-После скачивания репозитория необходимо выполнить команду `npm i` для подгрузки всех недостающих пакетов.
+После скачивания репозитория необходимо выполнить команду `npm i` и `npm i axios` для подгрузки всех недостающих пакетов.
 
 ## Доступные команды в директории проекта:
 
