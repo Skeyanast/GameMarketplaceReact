@@ -1,6 +1,7 @@
 import React from "react";
-import MyButton from "./UI/button/MyButton";
 import { useNavigate } from "react-router-dom";
+
+import MyButton from "./UI/button/MyButton";
 
 const PostItem = (props) => {
     const navigate = useNavigate();
@@ -17,7 +18,7 @@ const PostItem = (props) => {
                     {props.post.body}
                 </div>
             </div>
-            <div className="post_btns">
+            <div className="post__btns">
                 <MyButton onClick={() => transitToPost(props.post.id)}>
                     Открыть
                 </MyButton>

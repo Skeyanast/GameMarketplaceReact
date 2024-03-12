@@ -16,6 +16,9 @@ const App = () => {
       setIsAuth(true);
       setIsLoading(false);
     }
+    else {
+      setIsLoading(false);
+    }
   }, [])
 
   return (
